@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="./style.css" />
+  <title>Login</title>
+</head>
+
+<body>
+  <header class="header">
+
+    <main class="landing">
+
+      <div class="card">
+        <h3 class="t-header card__title">LOGIN</h3>
+
+        <form method="POST" action="http://localhost:3000/api/register" class="card__form">
+          <input name="name" placeholder="Name" type="text" class="card__input">
+          <input name="email" placeholder="Email Address" type="email" class="card__input" required>
+
+          <input name="password" placeholder="Password" type="password" class="card__input">
+
+
+          <button class="btn btn--red card__button">Log In</button>
+
+        </form>
+      </div>
+
+    </main>
+  </header>
+</body>
+
+</html>
